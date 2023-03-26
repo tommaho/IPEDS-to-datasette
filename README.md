@@ -8,9 +8,9 @@ Tools to get, prepare, and present IPEDS data in datasette.
 
 - metadata with table-column descriptions automatically generated from IPEDS dictionary files. Requires manual merge into actual metadata file, since these can vary so widely. 
 
-- The table-column descriptions, defined in the custom metadata dictionary, are collapsed into an html summary / details block. This is to save space over the default behaviour that would list all (pages of) descriptions.  
+- The table-column descriptions, defined in the custom metadata dictionary, are collapsed into an html summary / details block in the table.html template. This is to save space over the default behaviour that would list all (pages of) descriptions.  
 
-- Custom table scroll buttons at the top of the table:
+- Custom table scroll buttons at the top of the table, in the _table.html template:
     - |< << < > >> >|
     - these are jittery and hacky at the moment but it does the job.
 
