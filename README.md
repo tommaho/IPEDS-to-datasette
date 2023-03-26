@@ -10,6 +10,10 @@ Tools to get, prepare, and present IPEDS data in datasette.
 
 - The table-column descriptions, defined in the custom metadata dictionary, are collapsed into an html summary / details block. This is to save space over the default behaviour that would list all (pages of) descriptions.  
 
+- Custom table scroll buttons at the top of the table:
+    - |< << < > >> >|
+    - these are jittery and hacky at the moment but it does the job.
+
 
 ## Currently a collection of utilities:
 

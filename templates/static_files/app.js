@@ -1,6 +1,6 @@
 //Cusom JS entry point.
 
-console.log('JS entrypoint loaded!');
+// console.log('JS entrypoint loaded!');
 //test
 
 function setScrollBar() {
