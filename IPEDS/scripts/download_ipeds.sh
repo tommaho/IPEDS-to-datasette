@@ -7,7 +7,10 @@ data_path="../data"
 dict_path="../dictionaries"
 
 #Downloads files for year(s) specified
-years=("2021" "2020")
+#works with multiple years, like:
+#years=("2021" "2020")
+
+years=("2021")
 
 #Downloads both the default data file and dictionary for each entry
 #the YYYY character sequence is a placeholder for replacement in year loop
