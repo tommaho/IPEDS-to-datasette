@@ -15,7 +15,7 @@ Uses custom metadata file, a customized table header, and provides custom css an
         - creates an sqlite db in ../../database from the csv contents of the ../data directory. Remove or move files out if you don't want them in the database. 
     
 - start.sh
-    - launches datasette on database/IPEDS.db. Includes flags and path to your custom metatadata file, templates, and static files.
+    - launches datasette on database/IPEDS.db. Includes flags and path to your custom metatadata, customized templates, and static css and js files.
 
 
 ## To Do:
