@@ -34,5 +34,5 @@ Tools to get, prepare, and present IPEDS data in datasette.
 
 ## To Do:
 - a primary control script
-- add a top scrollbar to each table in _table.html
+
 - Download and build lookup tables, associate to base IPEDs tables. 
