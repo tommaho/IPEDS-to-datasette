@@ -1,9 +1,17 @@
 # IPEDS-to-datasette
 Tools to get, prepare, and present IPEDS data in datasette.
 
-Uses custom metadata file, a customized table header, and provides custom css and js entry points. 
 
-## Currently:
+## Customizations on default datasette:
+
+- metadata file defines css and js entry points.
+
+- metadata with table-column descriptions automatically generated from IPEDS dictionary files. Requires manual merge into actual metadata file, since these can vary so widely. 
+
+- The table-column descriptions, defined in the custom metadata dictionary, are collapsed into an html summary / details block. This is to save space over the default behaviour that would list all (pages of) descriptions.  
+
+
+## Currently a collection of utilities:
 
 - IPEDS/scripts/
     - download_ipeds.sh 
@@ -18,6 +26,9 @@ Uses custom metadata file, a customized table header, and provides custom css an
     - launches datasette on database/IPEDS.db. Includes flags and path to your custom metatadata, customized templates, and static css and js files.
 
 
-## To Do:
 
+
+## To Do:
+- a primary control script
+- add a top scrollbar to each table in _table.html
 - Download and build lookup tables, associate to base IPEDs tables. 
