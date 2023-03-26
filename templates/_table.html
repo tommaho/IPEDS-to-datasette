@@ -1,7 +1,9 @@
 {% if display_rows %}
-<div class="table-wrapper">
+<div id="scroll-container" class="table-wrapper">
+    <p>scroll</p>
     <table class="rows-and-columns">
         <thead>
+
             <tr>
                 {% for column in display_columns %}
                     <th {% if column.description %}
@@ -41,6 +43,14 @@
         {% endfor %}
         </tbody>
     </table>
+    <div id="scroll-btns">
+        <button class="scroll-btn scroll-left-all">|&lt;</button>
+        <button class="scroll-btn scroll-left-far">&lt;&lt;</button>
+        <button class="scroll-btn scroll-left">&lt;</button>
+        <button class="scroll-btn scroll-right">&gt;</button>
+        <button class="scroll-btn scroll-right-far">&gt;&gt;</button>
+        <button class="scroll-btn scroll-right-all">&gt;|</button>
+      </div>
 </div>
 {% else %}
     <p class="zero-results">0 records</p>

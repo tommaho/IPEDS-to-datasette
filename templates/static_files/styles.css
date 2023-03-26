@@ -1,4 +1,28 @@
 /*
 Custom stylesheet entry point.
 */
-
+/* General table styling */
+#scroll-container {
+    width: 100%;
+    overflow-x: scroll;
+    white-space: nowrap;
+    position: relative;
+  }
+  
+  #scroll-btns {
+    background-color:#276890;
+    
+    position: absolute;
+    top: 0px;
+    right: 0px;
+    z-index: 1;
+  }
+  
+  .scroll-btn {
+    background-color:#276890;
+    border: none;
+    color: #F8FAFB; 
+    font-size: 1.5em;
+    cursor: pointer;
+  }
+  
