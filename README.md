@@ -1,6 +1,16 @@
 # IPEDS-to-datasette
 Tools to get, prepare, and present IPEDS data in datasette.
 
+Expects *nix or Mac OS. Not Windows friendly. Also, requires:
+
+- csvs-to-sqlite
+- sqlite-utils
+- wget
+- unzip
+- Python (current)
+- pandas
+- datasette
+
 
 ## Customizations on default datasette:
 
@@ -34,5 +44,4 @@ Tools to get, prepare, and present IPEDS data in datasette.
 
 ## To Do:
 - a primary control script
-
 - Download and build lookup tables, associate to base IPEDs tables. 
